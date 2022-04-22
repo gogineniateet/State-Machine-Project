@@ -15,11 +15,11 @@ C:/Users/Ateet.Gogineni/Documents/Unity_Projects/StateMachine
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52696
+61369
 Successfully changed project path to: C:/Users/Ateet.Gogineni/Documents/Unity_Projects/StateMachine
 C:/Users/Ateet.Gogineni/Documents/Unity_Projects/StateMachine
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003139 seconds.
+Registered in 0.003528 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.207 seconds
+- Completed reload, in  3.304 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012491 seconds.
+Registered in 0.020600 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.684 seconds
+- Completed reload, in  1.704 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1437 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.4 MB.
-System memory in use after: 66.4 MB.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.8 MB.
+System memory in use after: 66.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 2.287000 ms (FindLiveObjects: 0.143100 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.929000 ms  DeleteObjects: 0.183100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 4.349900 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.035600 ms MarkObjects: 3.961800 ms  DeleteObjects: 0.191800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,477 +80,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/shoot.wav
-  artifactKey: Guid(637e36e59f82d4bca899fe51c14721cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shoot.wav using Guid(637e36e59f82d4bca899fe51c14721cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeec7aad2c7c335209fa04404f4984f') in 0.208361 seconds 
-  Import took 0.212725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/FPSController.prefab
-  artifactKey: Guid(6478176b8cb434cba99100779c3a0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPSController.prefab using Guid(6478176b8cb434cba99100779c3a0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c11e10e242ee31b5053ad76c4d69ba0') in 0.034970 seconds 
-  Import took 0.042993 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014869 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.318 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.6 MB.
-System memory in use after: 69.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 1.825100 ms (FindLiveObjects: 0.103000 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.625300 ms  DeleteObjects: 0.065900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 550.496731 seconds.
-  path: Assets/FPSController.prefab
-  artifactKey: Guid(6478176b8cb434cba99100779c3a0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPSController.prefab using Guid(6478176b8cb434cba99100779c3a0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02aea9d875edd5c2576d149f7ba401c') in 0.040770 seconds 
-  Import took 0.044241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 995.767599 seconds.
-  path: Assets/GuardScene.unity
-  artifactKey: Guid(c9fbbaca3ea2d4f3db4a2bd8a254e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuardScene.unity using Guid(c9fbbaca3ea2d4f3db4a2bd8a254e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eac9f029a1a6cbae195608247d99ff') in 0.010186 seconds 
-  Import took 0.014420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005349 seconds.
-  path: Assets/GuardScene.unity
-  artifactKey: Guid(c9fbbaca3ea2d4f3db4a2bd8a254e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuardScene.unity using Guid(c9fbbaca3ea2d4f3db4a2bd8a254e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eac9f029a1a6cbae195608247d99ff') in 0.009498 seconds 
-  Import took 0.014048 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.053381 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.6 MB.
-System memory in use after: 69.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1886.
-Total: 1.930800 ms (FindLiveObjects: 0.105600 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.722700 ms  DeleteObjects: 0.072300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 452.694252 seconds.
-  path: Assets/Ugg/Terraformer_Weapon_A_1P--Sniper.fbx
-  artifactKey: Guid(046c8cc9457e1435797832113fdf8f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Terraformer_Weapon_A_1P--Sniper.fbx using Guid(046c8cc9457e1435797832113fdf8f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e68cd96dae730497c261742760794b') in 1.247801 seconds 
-  Import took 1.251635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Ugg/Ugg@Rifle Run.fbx
-  artifactKey: Guid(e852c68a29f904eed9caeb1b2f671606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Rifle Run.fbx using Guid(e852c68a29f904eed9caeb1b2f671606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b740426010658e316ba63d6c78f05d') in 0.013449 seconds 
-  Import took 0.016600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Ugg/Ugg.prefab
-  artifactKey: Guid(87f465c82db6b484ca3ec1be1dd799fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg.prefab using Guid(87f465c82db6b484ca3ec1be1dd799fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e877944654d58a3edeb385f45a31eb4d') in 0.105267 seconds 
-  Import took 0.110052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Ugg/Ugg@Firing Rifle.fbx
-  artifactKey: Guid(70634ecc270e64eb48cf8168159f1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Firing Rifle.fbx using Guid(70634ecc270e64eb48cf8168159f1fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877ba8c3a44e42c57c62448fe0f9043e') in 0.018961 seconds 
-  Import took 0.021896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Ugg/Ugg.prefab
-  artifactKey: Guid(87f465c82db6b484ca3ec1be1dd799fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg.prefab using Guid(87f465c82db6b484ca3ec1be1dd799fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e877944654d58a3edeb385f45a31eb4d') in 0.105662 seconds 
-  Import took 0.110154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Ugg/Ugg@Rifle Walk.fbx
-  artifactKey: Guid(c490fa4639af548c3be515af2a9753e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Rifle Walk.fbx using Guid(c490fa4639af548c3be515af2a9753e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce903e58e9dc0e792d3631ae44f0e1e9') in 0.198434 seconds 
-  Import took 0.202884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Ugg/Ugg@Dying.fbx
-  artifactKey: Guid(2303a01ae4ad94c1aaba0a23aa7210b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Dying.fbx using Guid(2303a01ae4ad94c1aaba0a23aa7210b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f20e4031bbf7aa745214474aca1aa66') in 0.014221 seconds 
-  Import took 0.017262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Ugg/Ugg.controller
-  artifactKey: Guid(9ddb4b158c6044b9681bf9636c3d09a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg.controller using Guid(9ddb4b158c6044b9681bf9636c3d09a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b09a16d2dd18d173a877397b51e545b') in 0.029110 seconds 
-  Import took 0.032839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Ugg/Ugg@Rifle Idle.fbx
-  artifactKey: Guid(b2a39d5b4d6624a7f8fea289c90e1b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Rifle Idle.fbx using Guid(b2a39d5b4d6624a7f8fea289c90e1b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3d222394ad0ff2ebb881546d2be500') in 0.015200 seconds 
-  Import took 0.018043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Ugg/Ugg@Sleeping Idle.fbx
-  artifactKey: Guid(315b1aa35416b4c3cb7f87260e48339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Sleeping Idle.fbx using Guid(315b1aa35416b4c3cb7f87260e48339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771cc86e2ad2419e13ff9ce74c4f26e6') in 0.015931 seconds 
-  Import took 0.019765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Ugg/Ugg@Getting Up.fbx
-  artifactKey: Guid(3a71e8196c64846bfaa4b85191a8b95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Getting Up.fbx using Guid(3a71e8196c64846bfaa4b85191a8b95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e445d5c6a2d8addacb406cc56e52c') in 0.017487 seconds 
-  Import took 0.020773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003341 seconds.
-  path: Assets/Ugg/Ugg@Sleeping Idle.fbx
-  artifactKey: Guid(315b1aa35416b4c3cb7f87260e48339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ugg/Ugg@Sleeping Idle.fbx using Guid(315b1aa35416b4c3cb7f87260e48339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771cc86e2ad2419e13ff9ce74c4f26e6') in 0.014010 seconds 
-  Import took 0.017035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 188.109482 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.010085 seconds 
-  Import took 0.013123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.091898 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(a8ea33fb2c2881c49b1f9d8cee662ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(a8ea33fb2c2881c49b1f9d8cee662ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf330d6f6d66bb81dd08468cfe59fc29') in 0.010399 seconds 
-  Import took 0.013055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.679807 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d94108381757782fec45bf825bf2a4d') in 0.013430 seconds 
-  Import took 0.016560 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011252 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1928.
-Total: 2.360100 ms (FindLiveObjects: 0.180800 ms CreateObjectMapping: 0.039300 ms MarkObjects: 2.012300 ms  DeleteObjects: 0.125800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013942 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.550 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1931.
-Total: 2.106700 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.729300 ms  DeleteObjects: 0.212900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1159.610432 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea461a7e35ec30431f83310df0e0e2e') in 0.015339 seconds 
-  Import took 0.019972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.913166 seconds.
   path: Assets/Scripts/GameStateManager.cs
   artifactKey: Guid(abff03efc41f4dd47bad6a37d73adbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameStateManager.cs using Guid(abff03efc41f4dd47bad6a37d73adbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd5b49c8baab6376165c8cc0c0d44eb') in 0.009280 seconds 
-  Import took 0.012681 seconds .
+Start importing Assets/Scripts/GameStateManager.cs using Guid(abff03efc41f4dd47bad6a37d73adbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6308447ba007162be616c7295eee532e') in 0.055685 seconds 
+  Import took 0.060712 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014345 seconds.
+Registered in 0.029104 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
+- Completed reload, in  2.522 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
+System memory in use before: 66.7 MB.
+System memory in use after: 66.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 1.554000 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.024400 ms MarkObjects: 1.310100 ms  DeleteObjects: 0.072900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 3.097200 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.667200 ms  DeleteObjects: 0.132500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -564,117 +117,48 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029404 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 4177.646706 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699477e5674a4c0c636ce39db95d6e56') in 0.020888 seconds 
+  Import took 0.025786 seconds .
 
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
+========================================================================
+Received Import Request.
+  Time since last request: 4326.505157 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a70a6d7a1dcbc0d404ccdb9f07aeaa5') in 0.036228 seconds 
+  Import took 0.156455 seconds .
 
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+========================================================================
+Received Import Request.
+  Time since last request: 58.670614 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0568a3c63bee1a643ba40ac67eb06b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d820947aed30d958c302f6f95e7d3b1') in 0.025429 seconds 
+  Import took 0.038305 seconds .
 
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.170 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 5.319300 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.117100 ms MarkObjects: 4.550700 ms  DeleteObjects: 0.260800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.025765 seconds.
+Registered in 0.041926 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
-PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
-UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  2.182 seconds
+- Completed reload, in  3.956 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
+System memory in use before: 66.7 MB.
+System memory in use after: 66.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 3.483700 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.067100 ms MarkObjects: 3.077600 ms  DeleteObjects: 0.142300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 4.928600 ms (FindLiveObjects: 0.420300 ms CreateObjectMapping: 0.076900 ms MarkObjects: 4.215700 ms  DeleteObjects: 0.213300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
