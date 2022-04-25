@@ -24,7 +24,7 @@ public class GameStateManager : MonoBehaviour
         currentState = currentState.Process();
     }
 }
-public class State
+public class State  
 {
     public enum STATE { IDLE, ATTACK, PATROL, CHASE, DEATH }
     public enum EVENTS { ENTER, UPDATE, EXIT }
@@ -100,7 +100,6 @@ public class Idle : State
     public Idle(GameObject _npc, NavMeshAgent _agent, Animator _animator, Transform _playerPosition) : base(_npc, _agent, _animator, _playerPosition)
     {
         stateName = STATE.IDLE;
-
     }
     public override void EnterMethod()
     {
@@ -135,7 +134,7 @@ public class Patrol : State
     public Patrol(GameObject _npc, Animator _animator, NavMeshAgent _agent, Transform _playerPosition) : base(_npc, _agent, _animator, _playerPosition)
     {
         stateName = STATE.PATROL;
-        agent.speed = 2;
+        agent.speed = 2f;
         agent.isStopped = false;
     }
     public override void EnterMethod()
